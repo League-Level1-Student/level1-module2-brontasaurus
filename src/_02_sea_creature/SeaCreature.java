@@ -4,12 +4,11 @@ package _02_sea_creature;
  *    Level 1
  */
 
-import javax.swing.JApplet;
-import java.applet.AudioClip;
+
 
 public class SeaCreature {
 	
-	// 1. In a Runner class, make a SeaCreature called “Spongebob”. Use the methods below to make him eat, and laugh.
+	// 1. In a Runner class, make a SeaCreature called â€œSpongebobâ€�. Use the methods below to make him eat, and laugh.
 	// 2. Make Patrick and Squidward and print their name, have them eat, and make them laugh.
 
 
@@ -28,13 +27,8 @@ public class SeaCreature {
 	}
 
 	public void laugh() {
-		try {
-		    AudioClip sound = JApplet.newAudioClip(getClass().getResource(this.name + ".wav"));
-		    sound.play();
-			Thread.sleep(3400);
-		} catch (Exception ex) {
-			ex.printStackTrace();
-		}
+		System.out.println("henurghsbhahabshenenhushrgsbhes");
+		
 	}
 
 }
